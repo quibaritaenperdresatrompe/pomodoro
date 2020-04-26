@@ -66,5 +66,9 @@
       "git add"
     ]
   },
-  "pettier": "@qbaepst/prettier-config"
+  "pettier": "@qbaepst/prettier-config",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/quibaritaenperdresatrompe/pomodoro"
+  }
 }
