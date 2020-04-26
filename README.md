@@ -14,7 +14,7 @@ Inspired by https://github.com/kigiri/timer.
 - [x] Mute the alarm
 - [ ] Store (on browser Local Storage) and visualize past sessions
 - [ ] Create a nicer alarm sound with the Web Audio API
-- [ ] Add a theme light/dark theme
+- [ ] Add a light/dark theme selector
 - [ ] Store (on Firebase) and visualize past sessions, n.b. Google Sign-In integration is required
 
 ## Available Scripts
