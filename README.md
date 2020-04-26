@@ -1,5 +1,7 @@
 # 🍅 Pomodoro
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7fb90efc-283b-4d21-a35a-71c4e7a699d0/deploy-status)](https://app.netlify.com/sites/reverent-curran-49c158/deploys)
+
 Manage and monitor your work sessions with [Pomodoro method](https://en.wikipedia.org/wiki/Pomodoro_Technique) on a single app.
 
 Inspired by https://github.com/kigiri/timer.
