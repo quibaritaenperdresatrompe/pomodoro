@@ -1,0 +1,351 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="makeStyles-root-1"
+  >
+    <header
+      class="makeStyles-header-2"
+    >
+      <div
+        class="makeStyles-toolbar-3"
+      >
+        <button
+          class="makeStyles-button-5"
+        >
+          <span
+            aria-hidden="false"
+            aria-label="Toggle sound"
+            class="makeStyles-emoji-6 makeStyles-emoji-7"
+            role="img"
+          >
+            🔔
+          </span>
+        </button>
+      </div>
+    </header>
+    <main
+      class="makeStyles-content-4"
+    >
+      <code
+        class="makeStyles-time-8 makeStyles-time-9"
+      >
+        01:00
+      </code>
+      <button
+        class="makeStyles-button-5"
+      >
+        <span
+          aria-hidden="true"
+          aria-label=""
+          class="makeStyles-emoji-6 makeStyles-emoji-10"
+          role="img"
+        >
+          work
+        </span>
+      </button>
+    </main>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`App renders correctly 2`] = `
+<DocumentFragment>
+  <div
+    class="makeStyles-root-1"
+  >
+    <header
+      class="makeStyles-header-2"
+    >
+      <div
+        class="makeStyles-toolbar-3"
+      >
+        <button
+          class="makeStyles-button-5"
+        >
+          <span
+            aria-hidden="false"
+            aria-label="Toggle sound"
+            class="makeStyles-emoji-6 makeStyles-emoji-7"
+            role="img"
+          >
+            🔕
+          </span>
+        </button>
+      </div>
+    </header>
+    <main
+      class="makeStyles-content-4"
+    >
+      <code
+        class="makeStyles-time-8 makeStyles-time-9"
+      >
+        01:00
+      </code>
+      <button
+        class="makeStyles-button-5"
+      >
+        <span
+          aria-hidden="true"
+          aria-label=""
+          class="makeStyles-emoji-6 makeStyles-emoji-10"
+          role="img"
+        >
+          work
+        </span>
+      </button>
+    </main>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`App renders correctly 3`] = `
+<DocumentFragment>
+  <div
+    class="makeStyles-root-1"
+  >
+    <header
+      class="makeStyles-header-2"
+    >
+      <div
+        class="makeStyles-toolbar-3"
+      >
+        <button
+          class="makeStyles-button-5"
+        >
+          <span
+            aria-hidden="false"
+            aria-label="Toggle sound"
+            class="makeStyles-emoji-6 makeStyles-emoji-7"
+            role="img"
+          >
+            🔔
+          </span>
+        </button>
+      </div>
+    </header>
+    <main
+      class="makeStyles-content-4"
+    >
+      <code
+        class="makeStyles-time-8 makeStyles-time-9"
+      >
+        01:00
+      </code>
+      <button
+        class="makeStyles-button-5"
+      >
+        <span
+          aria-hidden="true"
+          aria-label=""
+          class="makeStyles-emoji-6 makeStyles-emoji-10"
+          role="img"
+        >
+          work
+        </span>
+      </button>
+    </main>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`App renders correctly after emoji has been changed 1`] = `
+<DocumentFragment>
+  <div
+    class="makeStyles-root-11"
+  >
+    <header
+      class="makeStyles-header-12"
+    >
+      <div
+        class="makeStyles-toolbar-13"
+      >
+        <button
+          class="makeStyles-button-15"
+        >
+          <span
+            aria-hidden="false"
+            aria-label="Toggle sound"
+            class="makeStyles-emoji-16 makeStyles-emoji-17"
+            role="img"
+          >
+            🔔
+          </span>
+        </button>
+      </div>
+    </header>
+    <main
+      class="makeStyles-content-14"
+    >
+      <code
+        class="makeStyles-time-18 makeStyles-time-19"
+      >
+        01:00
+      </code>
+      <button
+        class="makeStyles-button-15"
+      >
+        <span
+          aria-hidden="true"
+          aria-label=""
+          class="makeStyles-emoji-16 makeStyles-emoji-20"
+          role="img"
+        >
+          work
+        </span>
+      </button>
+    </main>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`App renders correctly after emoji has been changed 2`] = `
+<DocumentFragment>
+  <div
+    class="makeStyles-root-11"
+  >
+    <header
+      class="makeStyles-header-12"
+    >
+      <div
+        class="makeStyles-toolbar-13"
+      >
+        <button
+          class="makeStyles-button-15"
+        >
+          <span
+            aria-hidden="false"
+            aria-label="Toggle sound"
+            class="makeStyles-emoji-16 makeStyles-emoji-17"
+            role="img"
+          >
+            🔔
+          </span>
+        </button>
+      </div>
+    </header>
+    <main
+      class="makeStyles-content-14"
+    >
+      <code
+        class="makeStyles-time-18 makeStyles-time-19"
+      >
+        01:00
+      </code>
+      <button
+        class="makeStyles-button-15"
+      >
+        <span
+          aria-hidden="true"
+          aria-label=""
+          class="makeStyles-emoji-16 makeStyles-emoji-20"
+          role="img"
+        >
+          👩‍💻
+        </span>
+      </button>
+    </main>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`App renders correctly after session type has been changed 1`] = `
+<DocumentFragment>
+  <div
+    class="makeStyles-root-21"
+  >
+    <header
+      class="makeStyles-header-22"
+    >
+      <div
+        class="makeStyles-toolbar-23"
+      >
+        <button
+          class="makeStyles-button-25"
+        >
+          <span
+            aria-hidden="false"
+            aria-label="Toggle sound"
+            class="makeStyles-emoji-26 makeStyles-emoji-27"
+            role="img"
+          >
+            🔔
+          </span>
+        </button>
+      </div>
+    </header>
+    <main
+      class="makeStyles-content-24"
+    >
+      <code
+        class="makeStyles-time-28 makeStyles-time-29"
+      >
+        01:00
+      </code>
+      <button
+        class="makeStyles-button-25"
+      >
+        <span
+          aria-hidden="true"
+          aria-label=""
+          class="makeStyles-emoji-26 makeStyles-emoji-30"
+          role="img"
+        >
+          work
+        </span>
+      </button>
+    </main>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`App renders correctly after session type has been changed 2`] = `
+<DocumentFragment>
+  <div
+    class="makeStyles-root-21"
+  >
+    <header
+      class="makeStyles-header-22"
+    >
+      <div
+        class="makeStyles-toolbar-23"
+      >
+        <button
+          class="makeStyles-button-25"
+        >
+          <span
+            aria-hidden="false"
+            aria-label="Toggle sound"
+            class="makeStyles-emoji-26 makeStyles-emoji-27"
+            role="img"
+          >
+            🔔
+          </span>
+        </button>
+      </div>
+    </header>
+    <main
+      class="makeStyles-content-24"
+    >
+      <code
+        class="makeStyles-time-28 makeStyles-time-29"
+      >
+        01:00
+      </code>
+      <button
+        class="makeStyles-button-25"
+      >
+        <span
+          aria-hidden="true"
+          aria-label=""
+          class="makeStyles-emoji-26 makeStyles-emoji-30"
+          role="img"
+        >
+          break
+        </span>
+      </button>
+    </main>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmojiButton renders correctly 1`] = `
+<DocumentFragment>
+  <button
+    class="makeStyles-button-1"
+  >
+    <span
+      aria-hidden="true"
+      aria-label=""
+      class="makeStyles-emoji-2 makeStyles-emoji-3"
+      role="img"
+    />
+  </button>
+</DocumentFragment>
+`;
+
+exports[`EmojiButton renders correctly with an unkonwn size 1`] = `
+<DocumentFragment>
+  <button
+    class="makeStyles-button-4"
+  >
+    <span
+      aria-hidden="true"
+      aria-label=""
+      class="makeStyles-emoji-5 makeStyles-emoji-6"
+      role="img"
+    />
+  </button>
+</DocumentFragment>
+`;

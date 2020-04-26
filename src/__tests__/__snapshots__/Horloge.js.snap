@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Horloge on large screen, i.e. >= 600px renders correctly 1`] = `
+<DocumentFragment>
+  <code
+    class="makeStyles-time-1 makeStyles-time-2"
+  >
+    00:00
+  </code>
+</DocumentFragment>
+`;
+
+exports[`Horloge on small screen, i.e. < 600px renders correctly 1`] = `
+<DocumentFragment>
+  <code
+    class="makeStyles-time-3 makeStyles-time-4"
+  >
+    00:00
+  </code>
+</DocumentFragment>
+`;

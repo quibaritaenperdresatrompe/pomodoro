@@ -2,22 +2,29 @@
   "name": "pomodoro",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
-  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "commit": "git-cz",
+    "lint": "eslint --cache .",
+    "format": "prettier --write '*.{html,js,json,md}'"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "dependencies": {
+    "@material-ui/styles": "^4.9.10",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@qbaepst/prettier-config": "^1.3.0",
+    "@testing-library/dom": "^7.2.2",
+    "@testing-library/jest-dom": "^5.5.0",
+    "@testing-library/react": "^10.0.3",
+    "@testing-library/user-event": "^10.1.0",
+    "eslint": "^6.8.0",
+    "prettier": "^2.0.5",
+    "react-scripts": "3.4.0",
+    "typescript": "^3.8.3"
   },
   "browserslist": {
     "production": [
@@ -30,5 +37,34 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "jest": {
+    "coverageReporters": [
+      "lcov",
+      "text-summary"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "statements": 52,
+        "branches": 65,
+        "functions": 60,
+        "lines": 51
+      }
+    }
+  },
+  "lint-staged": {
+    "*.{html,js,json,md}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "pettier": "@qbaepst/prettier-config"
 }
