@@ -13,6 +13,8 @@ Inspired by https://github.com/kigiri/timer.
 - [x] Play an alarm on timer expiration
 - [x] Mute the alarm
 - [ ] Store (on browser Local Storage) and visualize past sessions
+- [ ] Create a nicer alarm sound with the Web Audio API
+- [ ] Add a theme light/dark theme
 - [ ] Store (on Firebase) and visualize past sessions, n.b. Google Sign-In integration is required
 
 ## Available Scripts
