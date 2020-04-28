@@ -1,6 +1,6 @@
 export default {
   work: {
-    color: "lightskyblue",
+    color: { light: "lightskyblue", dark: "lightskyblue" },
     duration: 25 * 60,
     emojis: [
       "👩‍💻",
@@ -29,7 +29,7 @@ export default {
     ],
   },
   break: {
-    color: "grey",
+    color: { light: "grey", dark: "white" },
     duration: 5 * 60,
     emojis: [
       "🎮",
