@@ -4,6 +4,8 @@ import React, { useState } from "react";
 import EmojiButton from "./EmojiButton";
 import Horloge from "./Horloge";
 import nextItem from "./nextItem";
+import ThemeButton from "./ThemeButton";
+import ThemeProvider from "./ThemeProvider";
 import sessions from "./sessions";
 import useTimer from "./useTimer";
 import useAlarm from "./useAlarm";
@@ -11,6 +13,7 @@ import useAlarm from "./useAlarm";
 const useStyles = makeStyles(() => ({
   root: {
     alignItems: "center",
+    backgroundColor: ({ theme }) => (theme === "light" ? "white" : "black"),
     display: "flex",
     flexDirection: "column",
     justifyContent: "center",
@@ -21,6 +24,7 @@ const useStyles = makeStyles(() => ({
     marginBottom: 16,
     minHeight: 36,
     width: "100%",
+    color: "inherit",
   },
   toolbar: {
     alignItems: "center",
@@ -41,7 +45,8 @@ const useStyles = makeStyles(() => ({
 const initType = "work";
 
 export default function App() {
-  const classes = useStyles();
+  const [theme, setTheme] = useState("light");
+  const classes = useStyles({ theme });
   const [muted, setMuted] = useState(false);
   const [type, setType] = useState(initType);
   const [emoji, setEmoji] = useState(initType);
@@ -66,31 +71,32 @@ export default function App() {
     setType(nextType);
   }
 
+  function onToggleTheme() {
+    setTheme(theme === "light" ? "dark" : "light");
+  }
+
   return (
-    <div className={classes.root}>
-      <header className={classes.header}>
-        <div className={classes.toolbar}>
-          <EmojiButton
-            emoji={muted ? "🔕" : "🔔"}
-            label="Toggle sound"
-            onClick={onToggleSound}
-            className={classes.action}
+    <ThemeProvider value={theme}>
+      <div className={classes.root}>
+        <header className={classes.header}>
+          <div className={classes.toolbar}>
+            <ThemeButton onClick={onToggleTheme} />
+            <EmojiButton
+              emoji={muted ? "🔕" : "🔔"}
+              label="Toggle sound"
+              onClick={onToggleSound}
+            />
+          </div>
+        </header>
+        <main className={classes.content}>
+          <Horloge
+            time={timer}
+            onClick={onNewSession}
+            color={sessions[type].color[theme]}
           />
-        </div>
-      </header>
-      <main className={classes.content}>
-        <Horloge
-          time={timer}
-          onClick={onNewSession}
-          color={sessions[type].color}
-        />
-        <EmojiButton
-          emoji={emoji}
-          onClick={onChangeEmoji}
-          className={classes.action}
-          size="large"
-        />
-      </main>
-    </div>
+          <EmojiButton emoji={emoji} onClick={onChangeEmoji} size="large" />
+        </main>
+      </div>
+    </ThemeProvider>
   );
 }
