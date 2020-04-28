@@ -43,9 +43,14 @@ exports[`App renders correctly 1`] = `
       class="makeStyles-content-4"
     >
       <code
-        class="makeStyles-time-10 makeStyles-time-11"
+        class="makeStyles-time-10 makeStyles-time-12"
       >
-        01:00
+        <span
+          class="makeStyles-hours-11"
+        >
+          01
+        </span>
+        :00
       </code>
       <button
         class="makeStyles-button-6"
@@ -53,7 +58,7 @@ exports[`App renders correctly 1`] = `
         <span
           aria-hidden="true"
           aria-label=""
-          class="makeStyles-emoji-7 makeStyles-emoji-12"
+          class="makeStyles-emoji-7 makeStyles-emoji-13"
           role="img"
         >
           work
@@ -107,9 +112,14 @@ exports[`App renders correctly 2`] = `
       class="makeStyles-content-4"
     >
       <code
-        class="makeStyles-time-10 makeStyles-time-11"
+        class="makeStyles-time-10 makeStyles-time-12"
       >
-        01:00
+        <span
+          class="makeStyles-hours-11"
+        >
+          01
+        </span>
+        :00
       </code>
       <button
         class="makeStyles-button-6"
@@ -117,7 +127,7 @@ exports[`App renders correctly 2`] = `
         <span
           aria-hidden="true"
           aria-label=""
-          class="makeStyles-emoji-7 makeStyles-emoji-12"
+          class="makeStyles-emoji-7 makeStyles-emoji-13"
           role="img"
         >
           work
@@ -171,9 +181,14 @@ exports[`App renders correctly 3`] = `
       class="makeStyles-content-4"
     >
       <code
-        class="makeStyles-time-10 makeStyles-time-11"
+        class="makeStyles-time-10 makeStyles-time-12"
       >
-        01:00
+        <span
+          class="makeStyles-hours-11"
+        >
+          01
+        </span>
+        :00
       </code>
       <button
         class="makeStyles-button-6"
@@ -181,7 +196,7 @@ exports[`App renders correctly 3`] = `
         <span
           aria-hidden="true"
           aria-label=""
-          class="makeStyles-emoji-7 makeStyles-emoji-12"
+          class="makeStyles-emoji-7 makeStyles-emoji-13"
           role="img"
         >
           work
@@ -195,35 +210,35 @@ exports[`App renders correctly 3`] = `
 exports[`App renders correctly after emoji has been changed 1`] = `
 <DocumentFragment>
   <div
-    class="makeStyles-root-13 makeStyles-root-17"
+    class="makeStyles-root-14 makeStyles-root-18"
   >
     <header
-      class="makeStyles-header-14"
+      class="makeStyles-header-15"
     >
       <div
-        class="makeStyles-toolbar-15"
+        class="makeStyles-toolbar-16"
       >
         <button
-          class="makeStyles-button-18"
+          class="makeStyles-button-19"
           tooltiptext="Toggle theme"
         >
           <span
             aria-hidden="false"
             aria-label="Toggle theme"
-            class="makeStyles-emoji-19 makeStyles-emoji-20"
+            class="makeStyles-emoji-20 makeStyles-emoji-21"
             role="img"
           >
             ☀️
           </span>
         </button>
         <button
-          class="makeStyles-button-18"
+          class="makeStyles-button-19"
           tooltiptext="Toggle sound"
         >
           <span
             aria-hidden="false"
             aria-label="Toggle sound"
-            class="makeStyles-emoji-19 makeStyles-emoji-21"
+            class="makeStyles-emoji-20 makeStyles-emoji-22"
             role="img"
           >
             🔔
@@ -232,20 +247,25 @@ exports[`App renders correctly after emoji has been changed 1`] = `
       </div>
     </header>
     <main
-      class="makeStyles-content-16"
+      class="makeStyles-content-17"
     >
       <code
-        class="makeStyles-time-22 makeStyles-time-23"
+        class="makeStyles-time-23 makeStyles-time-25"
       >
-        01:00
+        <span
+          class="makeStyles-hours-24"
+        >
+          01
+        </span>
+        :00
       </code>
       <button
-        class="makeStyles-button-18"
+        class="makeStyles-button-19"
       >
         <span
           aria-hidden="true"
           aria-label=""
-          class="makeStyles-emoji-19 makeStyles-emoji-24"
+          class="makeStyles-emoji-20 makeStyles-emoji-26"
           role="img"
         >
           work
@@ -259,35 +279,35 @@ exports[`App renders correctly after emoji has been changed 1`] = `
 exports[`App renders correctly after emoji has been changed 2`] = `
 <DocumentFragment>
   <div
-    class="makeStyles-root-13 makeStyles-root-17"
+    class="makeStyles-root-14 makeStyles-root-18"
   >
     <header
-      class="makeStyles-header-14"
+      class="makeStyles-header-15"
     >
       <div
-        class="makeStyles-toolbar-15"
+        class="makeStyles-toolbar-16"
       >
         <button
-          class="makeStyles-button-18"
+          class="makeStyles-button-19"
           tooltiptext="Toggle theme"
         >
           <span
             aria-hidden="false"
             aria-label="Toggle theme"
-            class="makeStyles-emoji-19 makeStyles-emoji-20"
+            class="makeStyles-emoji-20 makeStyles-emoji-21"
             role="img"
           >
             ☀️
           </span>
         </button>
         <button
-          class="makeStyles-button-18"
+          class="makeStyles-button-19"
           tooltiptext="Toggle sound"
         >
           <span
             aria-hidden="false"
             aria-label="Toggle sound"
-            class="makeStyles-emoji-19 makeStyles-emoji-21"
+            class="makeStyles-emoji-20 makeStyles-emoji-22"
             role="img"
           >
             🔔
@@ -296,20 +316,25 @@ exports[`App renders correctly after emoji has been changed 2`] = `
       </div>
     </header>
     <main
-      class="makeStyles-content-16"
+      class="makeStyles-content-17"
     >
       <code
-        class="makeStyles-time-22 makeStyles-time-23"
+        class="makeStyles-time-23 makeStyles-time-25"
       >
-        01:00
+        <span
+          class="makeStyles-hours-24"
+        >
+          01
+        </span>
+        :00
       </code>
       <button
-        class="makeStyles-button-18"
+        class="makeStyles-button-19"
       >
         <span
           aria-hidden="true"
           aria-label=""
-          class="makeStyles-emoji-19 makeStyles-emoji-24"
+          class="makeStyles-emoji-20 makeStyles-emoji-26"
           role="img"
         >
           👩‍💻
@@ -323,35 +348,35 @@ exports[`App renders correctly after emoji has been changed 2`] = `
 exports[`App renders correctly after session type has been changed 1`] = `
 <DocumentFragment>
   <div
-    class="makeStyles-root-25 makeStyles-root-29"
+    class="makeStyles-root-27 makeStyles-root-31"
   >
     <header
-      class="makeStyles-header-26"
+      class="makeStyles-header-28"
     >
       <div
-        class="makeStyles-toolbar-27"
+        class="makeStyles-toolbar-29"
       >
         <button
-          class="makeStyles-button-30"
+          class="makeStyles-button-32"
           tooltiptext="Toggle theme"
         >
           <span
             aria-hidden="false"
             aria-label="Toggle theme"
-            class="makeStyles-emoji-31 makeStyles-emoji-32"
+            class="makeStyles-emoji-33 makeStyles-emoji-34"
             role="img"
           >
             ☀️
           </span>
         </button>
         <button
-          class="makeStyles-button-30"
+          class="makeStyles-button-32"
           tooltiptext="Toggle sound"
         >
           <span
             aria-hidden="false"
             aria-label="Toggle sound"
-            class="makeStyles-emoji-31 makeStyles-emoji-33"
+            class="makeStyles-emoji-33 makeStyles-emoji-35"
             role="img"
           >
             🔔
@@ -360,20 +385,25 @@ exports[`App renders correctly after session type has been changed 1`] = `
       </div>
     </header>
     <main
-      class="makeStyles-content-28"
+      class="makeStyles-content-30"
     >
       <code
-        class="makeStyles-time-34 makeStyles-time-35"
+        class="makeStyles-time-36 makeStyles-time-38"
       >
-        01:00
+        <span
+          class="makeStyles-hours-37"
+        >
+          01
+        </span>
+        :00
       </code>
       <button
-        class="makeStyles-button-30"
+        class="makeStyles-button-32"
       >
         <span
           aria-hidden="true"
           aria-label=""
-          class="makeStyles-emoji-31 makeStyles-emoji-36"
+          class="makeStyles-emoji-33 makeStyles-emoji-39"
           role="img"
         >
           work
@@ -387,35 +417,35 @@ exports[`App renders correctly after session type has been changed 1`] = `
 exports[`App renders correctly after session type has been changed 2`] = `
 <DocumentFragment>
   <div
-    class="makeStyles-root-25 makeStyles-root-29"
+    class="makeStyles-root-27 makeStyles-root-31"
   >
     <header
-      class="makeStyles-header-26"
+      class="makeStyles-header-28"
     >
       <div
-        class="makeStyles-toolbar-27"
+        class="makeStyles-toolbar-29"
       >
         <button
-          class="makeStyles-button-30"
+          class="makeStyles-button-32"
           tooltiptext="Toggle theme"
         >
           <span
             aria-hidden="false"
             aria-label="Toggle theme"
-            class="makeStyles-emoji-31 makeStyles-emoji-32"
+            class="makeStyles-emoji-33 makeStyles-emoji-34"
             role="img"
           >
             ☀️
           </span>
         </button>
         <button
-          class="makeStyles-button-30"
+          class="makeStyles-button-32"
           tooltiptext="Toggle sound"
         >
           <span
             aria-hidden="false"
             aria-label="Toggle sound"
-            class="makeStyles-emoji-31 makeStyles-emoji-33"
+            class="makeStyles-emoji-33 makeStyles-emoji-35"
             role="img"
           >
             🔔
@@ -424,20 +454,25 @@ exports[`App renders correctly after session type has been changed 2`] = `
       </div>
     </header>
     <main
-      class="makeStyles-content-28"
+      class="makeStyles-content-30"
     >
       <code
-        class="makeStyles-time-34 makeStyles-time-35"
+        class="makeStyles-time-36 makeStyles-time-38"
       >
-        01:00
+        <span
+          class="makeStyles-hours-37"
+        >
+          01
+        </span>
+        :00
       </code>
       <button
-        class="makeStyles-button-30"
+        class="makeStyles-button-32"
       >
         <span
           aria-hidden="true"
           aria-label=""
-          class="makeStyles-emoji-31 makeStyles-emoji-36"
+          class="makeStyles-emoji-33 makeStyles-emoji-39"
           role="img"
         >
           break

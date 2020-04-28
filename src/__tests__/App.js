@@ -41,10 +41,10 @@ describe(App.name, () => {
   });
 
   it("renders correctly after session type has been changed", () => {
-    const { asFragment, getByText } = render(<App />);
+    const { asFragment, container } = render(<App />);
     expect(asFragment()).toMatchSnapshot();
     act(() => {
-      fireEvent.click(getByText("01:00"));
+      fireEvent.click(container.querySelector("code"));
     });
     expect(asFragment()).toMatchSnapshot();
   });

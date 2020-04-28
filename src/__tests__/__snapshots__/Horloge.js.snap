@@ -3,9 +3,14 @@
 exports[`Horloge on large screen, i.e. >= 600px renders correctly 1`] = `
 <DocumentFragment>
   <code
-    class="makeStyles-time-1 makeStyles-time-2"
+    class="makeStyles-time-1 makeStyles-time-3"
   >
-    00:00
+    <span
+      class="makeStyles-hours-2"
+    >
+      00
+    </span>
+    :00
   </code>
 </DocumentFragment>
 `;
@@ -13,9 +18,14 @@ exports[`Horloge on large screen, i.e. >= 600px renders correctly 1`] = `
 exports[`Horloge on small screen, i.e. < 600px renders correctly 1`] = `
 <DocumentFragment>
   <code
-    class="makeStyles-time-3 makeStyles-time-4"
+    class="makeStyles-time-4 makeStyles-time-6"
   >
-    00:00
+    <span
+      class="makeStyles-hours-5"
+    >
+      00
+    </span>
+    :00
   </code>
 </DocumentFragment>
 `;
