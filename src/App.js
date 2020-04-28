@@ -1,5 +1,6 @@
 import { makeStyles } from "@material-ui/styles";
 import React, { useState } from "react";
+import useSound from "use-sound";
 
 import EmojiButton from "./EmojiButton";
 import Horloge from "./Horloge";
@@ -8,7 +9,6 @@ import ThemeButton from "./ThemeButton";
 import ThemeProvider from "./ThemeProvider";
 import sessions from "./sessions";
 import useTimer from "./useTimer";
-import useAlarm from "./useAlarm";
 
 const useStyles = makeStyles(() => ({
   root: {
@@ -50,13 +50,13 @@ export default function App() {
   const [muted, setMuted] = useState(false);
   const [type, setType] = useState(initType);
   const [emoji, setEmoji] = useState(initType);
-  const [setVolume, play, stop] = useAlarm();
+  const [play, { stop }] = useSound("./alarm.mp3", {
+    volume: muted ? 0 : 0.6,
+  });
   const timer = useTimer(sessions[type].duration, play);
 
   function onToggleSound() {
-    const nextMuted = !muted;
-    setMuted(nextMuted);
-    setVolume(nextMuted ? 0 : 1);
+    setMuted(!muted);
   }
 
   function onChangeEmoji() {
@@ -67,7 +67,6 @@ export default function App() {
     stop();
     const nextType = nextItem(type, Object.keys(sessions));
     setEmoji(nextType);
-    setMuted(false);
     setType(nextType);
   }
 

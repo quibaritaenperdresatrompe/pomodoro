@@ -12,9 +12,9 @@ Inspired by https://github.com/kigiri/timer.
 - [x] Set an emoji to illustrate the session
 - [x] Play an alarm on timer expiration
 - [x] Mute the alarm
-- [ ] Store (on browser Local Storage) and visualize past sessions
-- [ ] Create a nicer alarm sound with the Web Audio API
+- [x] ~~Create a nicer alarm sound with the Web Audio API~~ Use a nicer alarm
 - [x] Add a light/dark theme selector
+- [ ] Store (on browser Local Storage) and visualize past sessions
 - [ ] Store (on Firebase) and visualize past sessions, n.b. Google Sign-In integration is required
 
 ## Available Scripts

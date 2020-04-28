@@ -3,7 +3,7 @@ import React from "react";
 
 import App from "../App";
 jest.mock("../useTimer", () => () => 60);
-jest.mock("../useAlarm", () => () => [jest.fn(), jest.fn(), jest.fn()]);
+jest.mock("use-sound", () => () => [jest.fn(), { stop: jest.fn() }]);
 
 describe(App.name, () => {
   beforeAll(() => {
