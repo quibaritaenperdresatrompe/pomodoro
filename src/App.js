@@ -92,7 +92,7 @@ export default function App() {
           <Horloge
             time={timer}
             onClick={onNewSession}
-            color={sessions[type].color[theme]}
+            color={sessions[type].color}
           />
           <EmojiButton emoji={emoji} onClick={onChangeEmoji} size="large" />
         </main>

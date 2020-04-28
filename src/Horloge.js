@@ -24,7 +24,7 @@ function formatDigitHorloge(seconds) {
 }
 
 export default function Horloge({ color, onClick, time }) {
-  const classes = useStyles({ color: !time ? "tomato" : color });
+  const classes = useStyles({ color: !time ? "#d50c42" : color });
   return (
     <code className={classes.time} onClick={onClick}>
       {formatDigitHorloge(time)}
