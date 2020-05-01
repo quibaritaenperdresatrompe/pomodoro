@@ -13,7 +13,6 @@ exports[`App renders correctly 1`] = `
       >
         <button
           class="makeStyles-button-6"
-          tooltiptext="Toggle theme"
         >
           <span
             aria-hidden="false"
@@ -26,7 +25,6 @@ exports[`App renders correctly 1`] = `
         </button>
         <button
           class="makeStyles-button-6"
-          tooltiptext="Toggle sound"
         >
           <span
             aria-hidden="false"
@@ -82,7 +80,6 @@ exports[`App renders correctly 2`] = `
       >
         <button
           class="makeStyles-button-6"
-          tooltiptext="Toggle theme"
         >
           <span
             aria-hidden="false"
@@ -95,7 +92,6 @@ exports[`App renders correctly 2`] = `
         </button>
         <button
           class="makeStyles-button-6"
-          tooltiptext="Toggle sound"
         >
           <span
             aria-hidden="false"
@@ -151,7 +147,6 @@ exports[`App renders correctly 3`] = `
       >
         <button
           class="makeStyles-button-6"
-          tooltiptext="Toggle theme"
         >
           <span
             aria-hidden="false"
@@ -164,7 +159,6 @@ exports[`App renders correctly 3`] = `
         </button>
         <button
           class="makeStyles-button-6"
-          tooltiptext="Toggle sound"
         >
           <span
             aria-hidden="false"
@@ -220,7 +214,6 @@ exports[`App renders correctly after emoji has been changed 1`] = `
       >
         <button
           class="makeStyles-button-19"
-          tooltiptext="Toggle theme"
         >
           <span
             aria-hidden="false"
@@ -233,7 +226,6 @@ exports[`App renders correctly after emoji has been changed 1`] = `
         </button>
         <button
           class="makeStyles-button-19"
-          tooltiptext="Toggle sound"
         >
           <span
             aria-hidden="false"
@@ -289,7 +281,6 @@ exports[`App renders correctly after emoji has been changed 2`] = `
       >
         <button
           class="makeStyles-button-19"
-          tooltiptext="Toggle theme"
         >
           <span
             aria-hidden="false"
@@ -302,7 +293,6 @@ exports[`App renders correctly after emoji has been changed 2`] = `
         </button>
         <button
           class="makeStyles-button-19"
-          tooltiptext="Toggle sound"
         >
           <span
             aria-hidden="false"
@@ -358,7 +348,6 @@ exports[`App renders correctly after session type has been changed 1`] = `
       >
         <button
           class="makeStyles-button-32"
-          tooltiptext="Toggle theme"
         >
           <span
             aria-hidden="false"
@@ -371,7 +360,6 @@ exports[`App renders correctly after session type has been changed 1`] = `
         </button>
         <button
           class="makeStyles-button-32"
-          tooltiptext="Toggle sound"
         >
           <span
             aria-hidden="false"
@@ -427,7 +415,6 @@ exports[`App renders correctly after session type has been changed 2`] = `
       >
         <button
           class="makeStyles-button-32"
-          tooltiptext="Toggle theme"
         >
           <span
             aria-hidden="false"
@@ -440,7 +427,6 @@ exports[`App renders correctly after session type has been changed 2`] = `
         </button>
         <button
           class="makeStyles-button-32"
-          tooltiptext="Toggle sound"
         >
           <span
             aria-hidden="false"

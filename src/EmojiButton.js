@@ -21,7 +21,7 @@ export default function EmojiButton({ emoji, label, onClick, size }) {
   const theme = useTheme();
   const classes = useStyles({ size, theme });
   return (
-    <button onClick={onClick} className={classes.button} tooltiptext={label}>
+    <button onClick={onClick} className={classes.button}>
       <span
         aria-hidden={label ? "false" : "true"}
         aria-label={label ? label : ""}
