@@ -1,6 +1,6 @@
 # 🍅 Pomodoro
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/7fb90efc-283b-4d21-a35a-71c4e7a699d0/deploy-status)](https://app.netlify.com/sites/reverent-curran-49c158/deploys)
+![CD](https://github.com/quibaritaenperdresatrompe/pomodoro/workflows/CD/badge.svg) [![Netlify Status](https://api.netlify.com/api/v1/badges/7fb90efc-283b-4d21-a35a-71c4e7a699d0/deploy-status)](https://app.netlify.com/sites/qbaepst-pomodoro/deploys)
 
 Manage and monitor your work sessions with [Pomodoro method](https://en.wikipedia.org/wiki/Pomodoro_Technique) on a single app.
 
@@ -21,7 +21,7 @@ Inspired by https://github.com/kigiri/timer.
 
 In the project directory, you can run:
 
-### `yarn start`
+### `start`
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -29,12 +29,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
-### `yarn test`
+### `test`
 
 Launches the test runner in the interactive watch mode.<br />
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+### `build`
 
 Builds the app for production to the `build` folder.<br />
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -57,3 +57,7 @@ See configuration on [`@qbaepst/prettier-config`](https://github.com/quibaritaen
 ### `lint`
 
 Lint code with [ESLint](https://eslint.org/).
+
+### `release`
+
+Create a release with [`semantic-release`](https://semantic-release.gitbook.io/).
