@@ -80,6 +80,9 @@
     "url": "https://github.com/quibaritaenperdresatrompe/pomodoro"
   },
   "release": {
+    "branches": [
+      "main"
+    ],
     "repositoryUrl": "https://github.com/quibaritaenperdresatrompe/pomodoro",
     "plugins": [
       "@semantic-release/commit-analyzer",
